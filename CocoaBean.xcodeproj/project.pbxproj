@@ -18,6 +18,7 @@
 		F1538BA5178E848A006768A4 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1538BA4178E848A006768A4 /* Default-568h@2x.png */; };
 		F1538BA8178E848A006768A4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1538BA7178E848A006768A4 /* ViewController.m */; };
 		F1538BAB178E848A006768A4 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F1538BA9178E848A006768A4 /* ViewController.xib */; };
+		F1A837BA17EB358C00DE1B18 /* LMMUser.m in Sources */ = {isa = PBXBuildFile; fileRef = F1A837B917EB358C00DE1B18 /* LMMUser.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,8 @@
 		F1538BA6178E848A006768A4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		F1538BA7178E848A006768A4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		F1538BAA178E848A006768A4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		F1A837B817EB358C00DE1B18 /* LMMUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LMMUser.h; path = Model/LMMUser.h; sourceTree = "<group>"; };
+		F1A837B917EB358C00DE1B18 /* LMMUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LMMUser.m; path = Model/LMMUser.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +86,7 @@
 		F1538B94178E848A006768A4 /* CocoaBean */ = {
 			isa = PBXGroup;
 			children = (
+				F1A837B717EB357E00DE1B18 /* Model */,
 				F1538B9D178E848A006768A4 /* AppDelegate.h */,
 				F1538B9E178E848A006768A4 /* AppDelegate.m */,
 				F1538BA6178E848A006768A4 /* ViewController.h */,
@@ -105,6 +109,15 @@
 				F1538BA4178E848A006768A4 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F1A837B717EB357E00DE1B18 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F1A837B817EB358C00DE1B18 /* LMMUser.h */,
+				F1A837B917EB358C00DE1B18 /* LMMUser.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -174,6 +187,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F1538B9B178E848A006768A4 /* main.m in Sources */,
+				F1A837BA17EB358C00DE1B18 /* LMMUser.m in Sources */,
 				F1538B9F178E848A006768A4 /* AppDelegate.m in Sources */,
 				F1538BA8178E848A006768A4 /* ViewController.m in Sources */,
 			);
@@ -292,6 +306,7 @@
 				F1538BB0178E848A006768A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
