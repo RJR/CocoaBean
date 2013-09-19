@@ -19,6 +19,7 @@
 		F1538BA8178E848A006768A4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1538BA7178E848A006768A4 /* ViewController.m */; };
 		F1538BAB178E848A006768A4 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F1538BA9178E848A006768A4 /* ViewController.xib */; };
 		F1CC005E17EB379F00F0DF23 /* LMMDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = F1CC005D17EB379F00F0DF23 /* LMMDevice.m */; };
+		F1CC006117EB39A600F0DF23 /* LMGUID.m in Sources */ = {isa = PBXBuildFile; fileRef = F1CC006017EB39A600F0DF23 /* LMGUID.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,8 @@
 		F1538BAA178E848A006768A4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
 		F1CC005C17EB379F00F0DF23 /* LMMDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LMMDevice.h; path = Model/LMMDevice.h; sourceTree = "<group>"; };
 		F1CC005D17EB379F00F0DF23 /* LMMDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LMMDevice.m; path = Model/LMMDevice.m; sourceTree = "<group>"; };
+		F1CC005F17EB39A600F0DF23 /* LMGUID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LMGUID.h; path = Model/LMGUID.h; sourceTree = "<group>"; };
+		F1CC006017EB39A600F0DF23 /* LMGUID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LMGUID.m; path = Model/LMGUID.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +62,8 @@
 		F14EB33F17EB376B00EE6DE3 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				F1CC005F17EB39A600F0DF23 /* LMGUID.h */,
+				F1CC006017EB39A600F0DF23 /* LMGUID.m */,
 				F1CC005C17EB379F00F0DF23 /* LMMDevice.h */,
 				F1CC005D17EB379F00F0DF23 /* LMMDevice.m */,
 			);
@@ -189,6 +194,7 @@
 				F1CC005E17EB379F00F0DF23 /* LMMDevice.m in Sources */,
 				F1538B9B178E848A006768A4 /* main.m in Sources */,
 				F1538B9F178E848A006768A4 /* AppDelegate.m in Sources */,
+				F1CC006117EB39A600F0DF23 /* LMGUID.m in Sources */,
 				F1538BA8178E848A006768A4 /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
